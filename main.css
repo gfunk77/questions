@@ -91,3 +91,70 @@ img {
 .title {
   text-align: center;
 }
+
+body {
+  background: var(--backgroundColor);
+}
+.questions {
+  margin-top: 10rem;
+}
+
+.title h2 {
+  font-family: "Great Vibes", cursive;
+  color: #ff8e3c;
+}
+.section-center {
+  width: 90vw;
+  max-width: var(--fixedWidth);
+  margin: 0 auto;
+}
+
+.question {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow1);
+  margin-top: 2rem;
+}
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+.question-title p {
+  margin-bottom: 0;
+}
+.question-title button {
+  background: transparent;
+  border: none;
+}
+.plus-icon,
+.minus-icon {
+  font-size: 1.25rem;
+  color: var(--primaryColor);
+  cursor: pointer;
+}
+.question-text {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  padding: 0 1.5rem 1.5rem;
+  display: none;
+}
+.question-text p {
+  margin-bottom: 0;
+  border-top: 2px dotted gray;
+  padding-top: 1rem;
+}
+.minus-icon {
+  display: none;
+}
+.show-text .question-text {
+  display: block;
+}
+.show-text .minus-icon {
+  display: inline;
+}
+.show-text .plus-icon {
+  display: none;
+}
