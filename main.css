@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400|Roboto:400");
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+:root {
+  --backgroundColor: #eff0f3;
+  --headingColor: #0d0d0d;
+  --textColor: #2a2a2a;
+  --primaryColor: #ff8e3c;
+  --spacing: 4px;
+  --radius: 4px;
+  --shadow1: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow2: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: 300ms linear all;
+  --maxWidth: 1170px;
+  --fixedWidth: 600px;
+}
+
+body {
+  background: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  max-width: 40em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.38;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text-small {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.title {
+  text-align: center;
+}
